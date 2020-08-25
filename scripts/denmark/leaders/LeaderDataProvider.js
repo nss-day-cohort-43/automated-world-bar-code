@@ -16,3 +16,7 @@ const denmarkPeeps=[
     role: "Actor"
 }
 ]
+
+export const peepsArray = () => {
+    return denmarkPeeps.slice ()
+}
