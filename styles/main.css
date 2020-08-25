@@ -75,7 +75,7 @@ article {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+}
 
 .countryList-card {
     display: flex;
