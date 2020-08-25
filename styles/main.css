@@ -42,7 +42,7 @@ a:active {
     color: white;
 }
 body {
-    background-color: rgb(161, 161, 165);
+    background-color: rgb(254, 247, 232);
     font-size-adjust: 18px;
 }
 .parent-country {
@@ -83,3 +83,4 @@ article {
     flex-wrap: wrap;
     flex-direction: column;
 }
+
