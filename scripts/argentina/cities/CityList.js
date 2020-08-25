@@ -2,7 +2,7 @@ import { cityArray } from './CityDataProvider.js'
 import { cityComponent } from './City.js'
 
 export const cityList = () => {
-    const contentElement = document.querySelector('.greeceCity')
+    const contentElement = document.querySelector('.argentinaCity')
     const cities = cityArray()
     
     let cityHTMLRepresentation = "";

@@ -1,9 +1,5 @@
 const greeceLeaders = [
     {
-        name: "Giannis Antetokounmpo",
-        role: "NBA Basketball Player"
-    },
-    {
         name: "Socrates",
         role: "The Father of Western Philosophy"
     },
@@ -11,8 +7,16 @@ const greeceLeaders = [
         name: "Cleopatra",
         role: "Queen of the Ptolemaic Kingdom"
     },
+    {
+        name: "Homer",
+        role: "Author of the Iliad and the Odyssey"
+    },
+    {
+        name: "Giannis Antetokounmpo",
+        role: "2019 NBA MVP"
+    },
 ]
 
-export const theLeaders = () => {
-    return greeceLeaders.splice()
+export const leaderArray = () => {
+    return greeceLeaders.slice()
 }

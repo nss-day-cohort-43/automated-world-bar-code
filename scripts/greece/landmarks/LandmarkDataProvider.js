@@ -8,11 +8,15 @@ const greeceLandmarks = [
         location: "Athens"
     },
     {
-        name: "The Second Most Famous Instance the Parthenon (The Most Famous Located in Centennial Park in Nashville, Tennessee)",
+        name: "Temple of Olympian Zeus",
+        location: "Athens"
+    },
+    {
+        name: "The Second Most Famous Instance of the Parthenon",
         location: "Athens"
     },
 ]
 
-export const theLandmarks = () => {
-    return greeceLandmarks.splice()
+export const landmarkArray = () => {
+    return greeceLandmarks.slice()
 }

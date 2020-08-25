@@ -8,8 +8,11 @@ const greeceCities = [
     {
         name: "Patra"
     },
+    {
+        name: "Piraeus"
+    },
 ]
 
-export const theCities = () => { 
+export const cityArray = () => { 
     return greeceCities.slice();
 }

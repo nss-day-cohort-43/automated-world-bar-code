@@ -2,7 +2,7 @@ import { landmarkArray } from "./LandmarkDataProvider.js"
 import { landmarkComponent } from './Landmark.js'
 
 export const landmarkList = () => {
-    const contentElement = document.querySelector('.greeceLandmark')
+    const contentElement = document.querySelector('.argentinaLandmarks')
     const landmarks = landmarkArray()
 
     let landmarkHTMLRepresentation = ""

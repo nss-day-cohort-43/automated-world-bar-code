@@ -2,7 +2,7 @@ import { leaderArray } from './LeaderDataProvider.js'
 import { leaderComponent } from './Leader.js'
 
 export const leaderList = () => {
-    const contentElement = document.querySelector('.greecianLeader')
+    const contentElement = document.querySelector('.argentinaLeaders')
     const leaders = leaderArray()
 
     let leaderHTMLRepresentation = "";

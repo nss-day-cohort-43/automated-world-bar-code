@@ -83,3 +83,7 @@ article {
     flex-wrap: wrap;
     flex-direction: column;
 }
+
+ol {
+    list-style-type: disc;
+}
